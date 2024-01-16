@@ -10,3 +10,7 @@
     background-color: hsl(34, 66%, 33%,0.5);
     align-content: center;
 }
+
+body{
+    background-image: linear-gradient(to right,rgb(234, 42, 42),orange,yellow);
+}
