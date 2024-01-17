@@ -1,16 +1,33 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+    
+
 }
 
-.head{
-    display: flex;
-    justify-content: center;
-    background-color: hsl(34, 66%, 33%,0.5);
-    align-content: center;
+.container{
+    background-image: linear-gradient(coral,orange,yellow);
+    opacity: .8;
+    max-width: 700px;
+    position: absolute;
+border-radius: 10px;
+min-height: 92vh;
+
 }
 
-body{
-    background-image: linear-gradient(to right,rgb(234, 42, 42),orange,yellow);
+li{
+    transition-property: background-color;
+transition-duration: 1s;
 }
+li:hover{
+    background-color: hsla(0, 0%, 100%, 0.384);
+    border-radius: 20px;
+    text-decoration: underline;
+    font-size: larger;
+    cursor: pointer;
+    
+    
+}
+
+
+
